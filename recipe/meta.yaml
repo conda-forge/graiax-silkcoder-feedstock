@@ -1,5 +1,5 @@
 {% set name = "graiax-silkcoder" %}
-{% set version = "0.2.3" %}
+{% set version = "0.2.4" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/graiax-silkcoder-{{ version }}.tar.gz
-  sha256: 9758a125c63029c5ec892111dfbd28be2ff17bbb30f6493b13ff834688a86a12
+  sha256: e9f5124e0f01a545b95e9a6beaf5d224beb3895fb3b93268b7c7d4af073f4061
 
 build:
-  number: 2
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
